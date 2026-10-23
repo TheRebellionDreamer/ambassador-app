@@ -1,0 +1,12 @@
+// Схема БД. Модели описываются на следующем этапе (см. docs/PLAN.md → «Модель данных»).
+
+generator client {
+  provider               = "prisma-client"
+  output                 = "../src/generated/prisma"
+  moduleFormat           = "esm"
+  importFileExtension    = "js"
+}
+
+datasource db {
+  provider = "postgresql"
+}

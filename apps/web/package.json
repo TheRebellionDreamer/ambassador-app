@@ -1,0 +1,43 @@
+{
+  "name": "@ambassador/web",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "typecheck": "tsc -b"
+  },
+  "dependencies": {
+    "@ambassador/shared": "workspace:*",
+    "@hookform/resolvers": "^6.0.0",
+    "@mantine/core": "^9.7.3",
+    "@mantine/dates": "^9.7.3",
+    "@mantine/hooks": "^9.7.3",
+    "@mantine/notifications": "^9.7.3",
+    "dayjs": "^1.11.23",
+    "dexie": "^4.4.7",
+    "dexie-react-hooks": "^4.4.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-hook-form": "^7.90.0",
+    "react-router": "^8.5.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "@yandex/ymaps3-types": "^1.0.21703254",
+    "oxlint": "^1.88.0",
+    "postcss": "^8.5.31",
+    "postcss-preset-mantine": "^1.18.0",
+    "postcss-simple-vars": "^7.0.1",
+    "typescript": "~6.0.3",
+    "vite": "^8.3.4",
+    "vite-plugin-pwa": "^2.0.0"
+  }
+}
